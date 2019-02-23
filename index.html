@@ -4,18 +4,25 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Rock! Paper! Scissors!</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
 </head>
 
 <body>
-    <button id = "rock" type="submit" >ROCK</button>
-    <button id = "paper" type="submit" >PAPER</button>
-    <button id = "scissors" type="submit">SCISSORS</button>
+    <button id = "rock" class="btn"  >ROCK</button>
+    <button id = "paper" class="btn" >PAPER</button>
+    <button id = "scissors" class="btn">SCISSORS</button>
 
-    <p id = "player"></p>
-    <p id = "computer"></p>
-    <p id = "result"></p>
+    <div class ="result">
+        <p id = "player">PLAYER</p>
+    </div>
+    <div class ="result">
+        <p id = "computer">COMPUTER</p>
+    </div>
+    <div class ="result">
+        <p id = "result">CHAMPION</p>
+    </div>
 
     <script src="script.js"></script>
 </body>
